@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="container-fluid p-0">
+    <section class="page-section code-cover p-4 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+            {% include about_section.html %}
+        </div>
+        <div class="scroll-btn">
+            <a href="#blog" title="" class="centered"><span class="scroll-down"></span></a>
+        </div>
+    </section>
+    <section class="page-section p-4 p-lg-5 d-flex flex-column" id="blog">
+        <div class="my-auto">
+            {% include blog_section.html %}
+        </div>
+    </section>
+    <section class="page-section p-4 p-lg-5 d-flex flex-column" id="projects">
+        <div class="my-auto">
+            {% include projects_section.html %}
+        </div>
+    </section>
+    <section class="page-section p-4 p-lg-5 d-flex flex-column" id="contact">
+        <div class="my-auto">
+            {% include contact_section.html %}
+        </div>
+    </section>
+    <div id="top-btn" class="scroll-btn">
+        <a href="#page-top" title=""><span class="scroll-up"></span></a>
+    </div>
+</div>
